@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+
+
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Lily Script One', cursive;
+    color: lightgrey;
+}
+
+h2:hover {
+    color: cornflowerblue;
+    opacity: 70%;
+}
+
+form {
+    margin-left: 32%;
+}
+
+form label {
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+
+
+form input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid #bbb;
+
+}
+
+form input:hover {
+    border-color: #1abc9c;
+}
+
+form input:focus {
+    border-color: cornflowerblue;
+}
+
+i {
+    padding-left: 3px;
+}
+
+i:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+a {
+    display: block;
+    margin-left: 32%;
+    margin-top: 15px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+input[type=submit] {
+    margin-left: 53%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    width: 100px;
+    background-color: #1abc9c;
+    color: white;
+    
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
