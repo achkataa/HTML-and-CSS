@@ -1,0 +1,36 @@
+body {
+    font-family: "Helvetica", "san-serif";
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.heading {
+    font-family: "Georgia", "serif";
+
+}
+
+/* th, td {
+    width: 500px;
+    padding-left: 5px;
+}
+
+td {
+    border: 1px solid lightgrey;
+}
+
+
+th {
+    text-align: left;
+}
+
+thead tr {
+    background-color: gray;
+} */
+
+/* tr:nth-child(odd) {
+    background-color: lightgray ;
+} */
+
+thead tr{
+    background-color: darkgray;
+}

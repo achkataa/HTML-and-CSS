@@ -1,0 +1,20 @@
+body {
+    background-color: #EDEDED;
+    font-family: "Helvetica";
+}
+
+.heading {
+    background-color: #3B516B;
+    padding: 20px;
+    border-radius: 10px;
+    color: floralwhite;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    font-weight: 750;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.li-items {
+    margin-left: 20px;
+}
