@@ -1,0 +1,26 @@
+body {
+    padding: 10px;
+}
+
+section {
+    border: 8px solid #e6e6e6;
+    padding: 16px;
+    width: 451px;
+    height: 490px;
+}
+span {
+    font-weight: bold;
+}
+
+div {
+    margin-top: 15px;
+}
+
+button {
+    background-color: #d5384d;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 5px 20px;
+}
