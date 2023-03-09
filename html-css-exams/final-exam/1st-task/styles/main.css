@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* bg color = #f6e0b5 */
+/* card footer = #66545e */
+
+body {
+    font-family: Montserrat;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    background-color: #f6e0b5;
+    padding: 30px;
+    padding-left: 100px;
+}
+
+.card {
+    width: 360px;
+    height: 260px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 1px 2px 20px black;
+}
+
+.card img {
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card p {
+    background-color: #66545e;
+    color: white;
+    height: 20%;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.list-wrapper {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.list-wrapper p {
+    color: #66545e;
+    font-size: 20px;
+}
+
+.list-wrapper ul {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #66545e;
+
+}
+
+.list-wrapper ul li i {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    color: #f6e0b5;
+    background-color: #66545e;
+    border: 1px solid #66545e;
+    padding: 1px;
+}

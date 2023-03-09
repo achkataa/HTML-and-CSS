@@ -1,0 +1,219 @@
+/* green = #00d08e */
+/* bg-green = #b2f1dd */
+
+body {
+    font-family: sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.6000525210084033) 14%, rgba(0,0,0,0.39557072829131656) 51%, rgba(44,44,44,0.21069677871148462) 91%);
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.hero-header p {
+    font-size: 20px;
+    color: white;
+}
+
+.hero-header p i {
+    margin-right: 5px;
+}
+
+.hero-content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content .text {
+    margin-bottom: 64px;
+}
+
+.hero-content button {
+    padding: 6px 12px;
+    background-color: #00d08e;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.hero-content button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+.hero-content p {
+    font-size: 20px;
+}
+
+.hero-content p i {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 100%;
+    color: black;
+    background-color: white;
+    padding: 1px;
+}
+
+/* Tablet section */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tablet .tablet-img {
+    width: 100%;
+}
+
+/* aside hustle */
+
+
+.hustle {
+    padding: 40px;
+}
+
+
+.hustle ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.hustle ul li i {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #00d08e;
+    border-radius: 100%;
+    background-color: #00d08e;
+    color: white;
+    padding: 2px;
+}
+
+.hustle h2 {
+    font-size: 32px;
+}
+
+.hustle p {
+    font-size: 17px;
+    margin-bottom: 52px;
+}
+
+
+.imges {
+    width: 100px;
+}
+
+.paper-img {
+    width: 100%;
+    height: 100%;
+}
+
+.small-imgs {
+    padding: 30px;
+}
+
+.small-imgs h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+
+}
+
+.small-imgs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.imges p {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+    color: #00d08e;
+    font-weight: bold;
+}
+
+/* questions */
+
+
+.questions {
+    width: 100vw;
+    background-color: #b2f1dd;
+    padding: 20px;
+}
+
+.questions>p {
+    text-align: center;
+}
+
+.questions p span {
+    font-weight: bold;
+}
+
+.questions h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+
+}
+
+.question {
+    width: 300px;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 32px;
+}

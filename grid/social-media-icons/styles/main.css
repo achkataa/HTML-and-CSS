@@ -1,0 +1,25 @@
+.icons {
+    margin: 50px;
+}
+
+.item {
+    display: inline-block;
+    margin-left: 40px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+.item a {
+    color: black;
+}
+
+.item a:hover {
+    color: rgb(9, 148, 194);
+}
+
+.item i {
+    font-size: 20px;
+}

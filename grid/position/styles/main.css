@@ -1,0 +1,68 @@
+body {
+    background-color: lightgray;
+    padding: 12px;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    padding: 12px;
+    border: 2px dashed black;
+    margin-bottom: 32px;
+}
+
+.container img {
+    width: 300px;
+}
+
+/* STATIC */
+
+.static {
+    background-color: lightblue;
+}
+
+.static img {
+    position: static;
+    top: 20px;
+    left: 20px;
+}
+
+/* RELATIVE */
+
+.relative {
+    background-color: lightcoral;
+}
+.relative img {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+/* ABSOLUTE */
+
+.absolute {
+    background-color: lightgreen;
+    position: relative;
+}
+
+.absolute img {
+    width: 120px;
+    position: absolute;
+    right: 150px;
+    top: 1px;
+}
+
+/* FIXED */
+
+.fixed {
+    background-color: lightpink;
+}
+
+.fixed img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

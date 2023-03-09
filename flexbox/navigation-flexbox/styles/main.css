@@ -1,0 +1,22 @@
+body {
+    padding: 32px;
+}
+
+header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+ul li {
+    font-size: 17px;
+    color: green;
+}

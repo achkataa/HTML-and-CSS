@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas: 
+        "header header header header header header"
+        "side side main main main main"
+        "side side main main main main"
+        "side side main main main main"
+        "side side main main main main"
+        "footer footer footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: lightcoral;
+}
+
+.sidebar {
+    grid-area: side;
+    background-color: lightblue;
+}
+
+.main {
+    grid-area: main;
+    background-color: lightgreen;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: lightsalmon;
+}
+

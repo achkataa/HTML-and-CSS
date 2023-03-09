@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 32px;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 20px;
+}
+
+.card {
+    /* width: 360px; */
+    border: 2px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.thumbnail {
+    /* width: 360px;
+    height: 360px; */
+    margin-bottom: 10px;
+    aspect-ratio: 1 / 1;
+}
+
+.thumbnail__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content__name {
+    margin-bottom: 10px;
+}
+
+.content__badge {
+    background-color: #ffeae3;
+    color: #FF9671;
+    display: inline-block;
+    padding: 4px 16px;
+    border-radius: 20px;
+    margin-bottom: 32px;
+}
+
+.content__section__title {
+    font-size: 14px;
+    text-align: left;
+    color: gray;
+}
+
+.content .content__projects {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 6px;
+    text-align: left;
+    font-size: 0px;
+}
+
+.project {
+    background-color: lightgray;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 16px;
+}
+
+.project:first-child {
+    margin-bottom: 4px;
+}
+
+.project:not(:last-child) {
+    margin-right: 4px;
+}
+

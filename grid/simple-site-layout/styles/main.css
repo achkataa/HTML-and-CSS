@@ -1,0 +1,86 @@
+body {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 1fr 2fr 0.3fr;
+    gap: 10px;
+    padding: 15px 15px;
+
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+
+}
+
+.header, .aside, .main, .footer {
+    background-color: rgb(181, 216, 255);
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.header {
+    grid-area: header;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 50px;
+    vertical-align: middle;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.aside {
+    grid-area: aside;
+    position: relative;
+}
+
+.aside ul {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.aside ul li {
+    margin: 10px;
+}
+
+.aside a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(86, 40, 129);;
+}
+
+.main {
+    grid-area: main;
+    position: relative;
+}
+
+.main ul {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.main ul li {
+    font-size: 20px;
+}
+
+.main h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    position: relative;
+}
+
+.footer div {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+}

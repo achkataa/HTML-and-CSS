@@ -1,0 +1,117 @@
+body {
+    margin: 30px;
+    background-color: rgb(238, 238, 238) ;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.7fr;
+    column-gap: 30px;
+    grid-template-areas: 
+    "section1 section1 aside"
+    "section2 section2 ."
+    "section3 section3 .";
+}
+
+
+.section-1 {
+    grid-area: section1;
+}
+
+.aside {
+    grid-area: aside;
+
+}
+
+.section-2 {
+    grid-area: section2;
+}
+
+.section-3 {
+    grid-area: section3;
+}
+
+
+header {
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header h1 {
+    display: inline-block;
+
+}
+
+.header ul {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 15px;
+    color: rgb(0, 102, 0);
+    font-size: 17px;
+}
+
+/* section 1 */
+
+
+.heading {
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.section-1 p {
+    margin-bottom: 10px;
+}
+
+.section-1 img {
+    float: right;
+    margin-left: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+
+.aside ul li {
+    color: rgb(0, 102, 0);
+}
+
+.section-2 p {
+    margin-bottom: 20px;
+}
+
+.right-p {
+    float: right;
+    display: inline-block;
+    width: 400px;
+    border-left: 2px solid gray;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}
+
+.left-p {
+    display: inline-block;
+    width: 400px;
+}
+
+.container {
+    position: relative;
+}
+
+.section-3 img {
+    float: left;
+    margin-right: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.section-3 p {
+    margin-bottom: 20px;
+}

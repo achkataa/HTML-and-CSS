@@ -1,0 +1,80 @@
+@media screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        align-items: center ;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .trainings {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .trainings div {
+        width: 70%;
+    }
+
+    .instructors-pic {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .classes ul {
+        gap: 5px;
+        justify-content: space-evenly;
+    } 
+
+    .classes li {
+        width: 40%;
+    }
+
+    .getInTouch {
+        flex-direction: column;
+        height: min-content;
+        margin-bottom: 20px;
+    }
+
+    .getInTouch .form {
+        width: 100%;
+    }
+
+    .map {
+        overflow: unset;
+        width: 100%;
+    }
+
+    .site-footer .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+        grid-template-areas: 
+        "about about about"
+        "sitemap . contacts"
+        "sitemap . contacts";
+    }
+
+    .site-footer .about {
+        grid-area: about;
+    }
+
+    .site-footer .sitemap {
+        grid-area: sitemap;
+    }
+
+    .site-footer .contacts {
+        grid-area: contacts;
+    }
+
+    .about hr {
+        display: none;
+    }
+}
+

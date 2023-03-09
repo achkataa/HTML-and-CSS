@@ -1,0 +1,37 @@
+.container {
+    background-color: lightgray;
+    /* padding: 12px; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.container .div {
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    padding: 6px 12px;
+    flex-grow: 1;
+}
+
+.one {
+    background-color: lightblue;
+}
+
+.two {
+    background-color: lightcoral;
+}
+
+.three {
+    background-color: lightgreen;
+}
+
+.four {
+    background-color: lightpink;
+}
+
+.five {
+    background-color: lightsalmon;
+}

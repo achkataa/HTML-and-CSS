@@ -1,0 +1,35 @@
+
+body {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "first"
+    "second";
+}
+
+.first-section {
+    background-color: lightblue;
+    grid-area: first;
+    position: relative;
+}
+
+.second-section {
+    background-color: lightcoral;
+    grid-area: second;
+    position: relative;
+}
+
+.img-1 {
+    width: 150px;
+    position: absolute;
+    top: 30%;
+    left: 42%;
+
+}
+
+.img-2 {
+    width: 150px;
+    position: absolute;
+    top: 15%;
+    left: 42%;
+}

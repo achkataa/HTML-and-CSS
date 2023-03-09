@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 15vw;
+    height: 35rem;
+    padding: 20px;
+}
+.div {
+    border: 1px solid black;
+    flex-basis: 50px;
+    width: 50px;
+    padding: 20px;
+}
